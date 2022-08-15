@@ -59,7 +59,7 @@ header {
 /* Media Queries Responsive SM */
 @media screen and (max-width: 600px) {
   header {
-    height: 82vh;
+    height: 109vh;
   }
   .header__socials {
     display: none;
