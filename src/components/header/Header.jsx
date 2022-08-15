@@ -8,9 +8,11 @@ export default function Header() {
   return (
     <header>
       <div className="container header__container">
-        <h5>Olá, eu sou o</h5>
-        <h1>Luis Felipe</h1>
-        <h5 className="text-light">Desenvolvedor Full Stack</h5>
+        <h5 className="first__animation">Olá, eu sou o</h5>
+        <h1 className="second__animation">Luis Felipe</h1>
+        <h5 className="text-light ultimate__animation">
+          Desenvolvedor Full Stack
+        </h5>
         <CVC />
         <HeaderSocial />
         <div className="me">

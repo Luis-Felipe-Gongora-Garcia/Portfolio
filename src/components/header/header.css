@@ -10,6 +10,21 @@ header {
   position: relative;
 }
 
+.first__animation {
+  animation-name: moveUp;
+  animation-duration: 2s;
+}
+
+.second__animation {
+  animation-name: moveRight;
+  animation-duration: 2s;
+}
+
+.ultimate__animation {
+  animation-name: moveLeft;
+  animation-duration: 2s;
+}
+
 /* CVC */
 .cta {
   margin-top: 2rem;
@@ -26,7 +41,7 @@ header {
   gap: 0.8rem;
   position: absolute;
   left: 0;
-  bottom: 3rem;
+  bottom: 9rem;
 }
 
 .header__socials::after {
@@ -38,7 +53,7 @@ header {
 
 /* ME */
 .me {
-  background: linear-gradient(#c8a389, transparent);
+  background: linear-gradient(#b6b3b2, transparent);
   width: 22rem;
   height: 22rem;
   position: absolute;
@@ -52,16 +67,49 @@ header {
 /* Media Queries Responsive MD */
 @media screen and (max-width: 1024px) {
   header {
-    height: 68vh;
+    height: 78vh;
   }
 }
 
 /* Media Queries Responsive SM */
 @media screen and (max-width: 600px) {
   header {
-    height: 109vh;
+    height: 94vh;
   }
   .header__socials {
     display: none;
+  }
+}
+
+@keyframes moveRight {
+  0% {
+    opacity: 0;
+    transform: translateX(150px);
+  }
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
+}
+
+@keyframes moveLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-150px);
+  }
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
+}
+
+@keyframes moveUp {
+  0% {
+    opacity: 0;
+    transform: translateY(150px);
+  }
+  100% {
+    opacity: 1;
+    transform: translate(0);
   }
 }

@@ -30,13 +30,13 @@ export default function Skills() {
               <FaCheck className="skills__details-icon" />
               <div>
                 <h4>JavaScript</h4>
-                <small className="text-light">Avançado</small>
+                <small className="text-light">Intermediário</small>
               </div>
             </article>
             <article className="skills__details">
               <FaCheck className="skills__details-icon" />
               <div>
-                <h4>Jquery</h4>
+                <h4>JQuery</h4>
                 <small className="text-light">Básico</small>
               </div>
             </article>
