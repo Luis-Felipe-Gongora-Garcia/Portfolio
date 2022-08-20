@@ -1,5 +1,5 @@
 header {
-  height: 100vh;
+  height: 800px;
   padding-top: 7rem;
   overflow: hidden;
 }
@@ -64,18 +64,8 @@ header {
   padding: 3rem 1.5rem 1.5rem;
 }
 
-/* Media Queries Responsive MD */
-@media screen and (max-width: 1024px) {
-  header {
-    height: 78vh;
-  }
-}
-
 /* Media Queries Responsive SM */
 @media screen and (max-width: 600px) {
-  header {
-    height: 100vh;
-  }
   .header__socials {
     display: none;
   }
