@@ -18,7 +18,7 @@ export default function About() {
           <p>
             Tenho 25 anos, sempre fui apaixonado por tecnologia, e decidi seguir
             nessa área que sempre fez parte de alguma forma na minha vida, desde
-            entao tenho me aprofundado cada vez mais em programação. Atualmente
+            então tenho me aprofundado cada vez mais em programação. Atualmente
             estou cursando Análise e Desenvolvimento de Software. Fiz esse
             Portfólio pra mostrar o que já sou capaz de desenvolver, e estou em
             busca de uma oportunidade profissional com disposição a me propor

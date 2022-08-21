@@ -6,7 +6,7 @@ export default function HeaderSocial() {
   return (
     <div className="header__socials">
       <a
-        href="https://www.linkedin.com/in/luis-felipe-gongora-garcia-6b340323b/"
+        href="https://www.linkedin.com/in/luis-felipe-gongora-garcia"
         target="_blank"
         rel="noreferrer"
       >
