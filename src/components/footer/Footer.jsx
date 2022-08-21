@@ -27,10 +27,16 @@ export default function Footer() {
         </li>
       </ul>
       <div className="footer__socials">
-        <a href="https://www.instagram.com/luisfelipegongoragarcia/">
+        <a
+          target="_blank"
+          href="https://www.instagram.com/luisfelipegongoragarcia/"
+        >
           <FiInstagram />
         </a>
-        <a href="https://www.linkedin.com/in/luis-felipe-gongora-garcia">
+        <a
+          target="_blank"
+          href="https://www.linkedin.com/in/luis-felipe-gongora-garcia"
+        >
           <BsLinkedin />
         </a>
       </div>
