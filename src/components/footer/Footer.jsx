@@ -30,7 +30,7 @@ export default function Footer() {
         <a href="https://www.instagram.com/luisfelipegongoragarcia/">
           <FiInstagram />
         </a>
-        <a href="https://www.linkedin.com/in/luis-felipe-gongora-garcia-6b340323b/">
+        <a href="https://www.linkedin.com/in/luis-felipe-gongora-garcia">
           <BsLinkedin />
         </a>
       </div>
